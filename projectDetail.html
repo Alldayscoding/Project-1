@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <title>My first Web</title>
+
+  <style>
+    #sidebar{
+      position: fixed; 
+  right: 68%; 
+  top: 130px; 
+  margin-right: -720px;
+  text-align:center;
+  width: 5%;
+
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <!-- 네비게이션 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-3 sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand align-middle">
+        <h3 class="m-0">
+          <img src="assets/images/bootstrap-logo.png" alt="Logo" height="36px">
+          My BS5 web
+        </h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a href="#top" class="nav-link">
+              Home
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#intro" class="nav-link">
+              일시후원
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">
+              정기후원
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#slogan" class="nav-link">
+              슬로건
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">
+              사업소개
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#cta" class="nav-link">
+              연락처
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#find-us" class="nav-link">
+              오시는길
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#intro" class="nav-link bg-warning rounded-3">
+              후원하기
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="signup.html" class="nav-link" >
+              로그인
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- 일시 후원 프로젝트 목록 -->
+<div class="container">
+<div class="row mt-5">
+  <div class="offset-xl-1 col-xl-7 col-lg-8 ">
+    <div class="donate_view_thumb" style="background-image: url('/assets/images/bg1.jpg');"></div>
+  </div>
+
+  <div class="col-xl-3 col-lg-4" id="sidebar">
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/images/bootstrap-big-logo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>320,100</b>원 모금중</h5>
+        <p>모금시작일 : 2023.07.20</p>
+        <p>모금 목표&nbsp;<b>1,000,000</b></p>
+        <p>총 참여 인원 <b>20</b>명</p>
+        <a href="#" class="btn btn-primary">바로기부하기</a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- 본문내용 시작 -->
+<div class="row mt-2">
+  <div class="offset-xl-1 col-xl-7 col-lg-8 ">
+        <!-- 본문세부 -->
+        <p>삼복 더위야, 물러가라!
+          "똑똑~ 어르신, 삼복더위 물리 치러 유성실버복지센터 왔습니다~!"
+          기부하세요 기부하세요
+          유성실버복지센터에서는 2023년 초복을 맞이하여 지역사회 경제적 취약계층 어르신 100명을 대상으로 영양가득 보양식을 전달하고, 어르신 가정을 방문하여 안전 안부를 확인하며 행복한 추억을 선물하고자 합니다.</p>
+          <hr>
+        </div>
+  
+</div>
+<!-- 본문 끝 -->
+
+</div>
+<!-- 일시 후원 프로젝트 목록 끝 -->
+<!-- command 시작 -->
+<section class="mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="offset-xl-1 col-xl-7 col-lg-8 ">
+  <div class="card bg-light rounded-3">
+      <div class="card-body">
+          <!-- Comment form-->
+          <form class="mb-4"><textarea class="form-control" rows="3" placeholder="따듯한 마음을 표현하세요!"></textarea>
+            <button class="btn btn-outline-primary mt-3">등록</button>
+          </form>
+          <!-- Comment with nested comments-->
+          <div class="d-flex mb-4">
+              <!-- Parent comment-->
+              <div class="flex-shrink-0"><img class="rounded-circle" src="/assets/images/icon-facebook.png"  width="40px" alt="avatar" /></div>
+              <div class="ms-3">
+                  <div class="fw-bold">Jason</div>
+                 하루빨리 회복되시기를 응원합니다.
+                  <!-- Child comment 1-->
+                  <div class="d-flex mt-4">
+                      <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                      <div class="ms-3">
+                          <div class="fw-bold">Commenter Name</div>
+                          And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
+                      </div>
+                  </div>
+                  <!-- Child comment 2-->
+                  <div class="d-flex mt-4">
+                      <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                      <div class="ms-3">
+                          <div class="fw-bold">Commenter Name</div>
+                          When you put money directly to a problem, it makes a good headline.
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Single comment-->
+          <div class="d-flex">
+              <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+              <div class="ms-3">
+                  <div class="fw-bold">Commenter Name</div>
+                  When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- command 끝 -->
+
+<!-- Footer 시작 -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Company, Inc</p>
+      </footer>
+    </div>
+<!-- Footer 끝 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
